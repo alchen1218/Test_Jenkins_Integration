@@ -12,7 +12,7 @@ def run_hello_world(platform):
     print('first change being made to the build')
     count = 0
     for i in range(10):
-        print(str(count), 'I am using ', platform, "OS")
+        print(str(count), 'I am using', platform, "OS")
         count += 1
 
 run_hello_world(platform)
