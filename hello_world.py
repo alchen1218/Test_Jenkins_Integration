@@ -1,10 +1,11 @@
-import os
 import sys
 # class HelloWorld:
 print('hello world outside function')
 
-
-platform = sys.argv[1]
+if len(sys.argv) == 1:
+    platform = 'an unspecified'
+else:
+    platform = str(sys.argv[1])  
 
 def run_hello_world(platform):
     print('Hello World')
