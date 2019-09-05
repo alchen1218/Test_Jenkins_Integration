@@ -14,8 +14,4 @@ def run_hello_world(platform):
         print(str(count), 'I am using ', platform, "OS")
         count += 1
 
-
-def first_change():
-    print('first change being made to the build')
-
 run_hello_world(platform)
